@@ -1144,16 +1144,17 @@
     </div>
   </section>
 
-  <section id="stats">
-    <div class="wrap">
-      <div class="stats-row">
-        <div><div class="num"><span class="countup" data-target="2000">0</span></div><div class="label">Established Since</div></div>
-        <div><div class="num"><span class="countup" data-target="30">0</span>+</div><div class="label">Print &amp; Finishing Options</div></div>
-        <div><div class="num"><span class="countup" data-target="24">0</span>hr</div><div class="label">Typical Turnaround</div></div>
-        <div><div class="num"><span class="countup" data-target="100">0</span>%</div><div class="label">Proof-Checked Before Print</div></div>
-      </div>
+<section id="stats">
+  <div class="wrap">
+    <div class="stats-row">
+      <div><div class="num"><span class="countup" id="years-exp" data-target="0">0</span>+</div><div class="label">Years of Experience</div></div>
+      <div><div class="num"><span class="countup" data-target="30">0</span>+</div><div class="label">Print &amp; Finishing Options</div></div>
+      <div><div class="num"><span class="countup" data-target="24">0</span>hr</div><div class="label">Typical Turnaround</div></div>
+      <div><div class="num"><span class="countup" data-target="100">0</span>%</div><div class="label">Proof-Checked Before Print</div></div>
     </div>
-  </section>
+  </div>
+</section>
+<script>document.getElementById('years-exp').setAttribute('data-target', new Date().getFullYear() - 2000);</script>
 
   <section id="testimonials" class="section-pad">
     <div class="wrap">
